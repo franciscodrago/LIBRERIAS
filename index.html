@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+   <script defer src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   <script src="https://cdn.jsdelivr.net/npm/luxon@3.0.1/build/global/luxon.min.js"></script>
+   
+  <link rel="stylesheet" href="./estilos.css">  
+
+ <title>TP-FINAL</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <img class="logo" src="./assets/logo-1099081318-1650635835-c0ded488e58d368568177e43e7dbc2551650635836-320-0 (1).png" alt="">
+            <!-- Button trigger modal -->
+            <button id="toggleMyModal" type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                Ver carrito de compras <i class="bi bi-bag-check-fill"></i>
+            </button>
+
+
+
+            </div>
+        </div>
+    </nav>
+
+  
+    <section class="d-flex justify-content-center mt-5">
+        <article class="container">
+            <div id="miLista" class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center mt-5 "></div>
+        </article>
+    </section>
+        <h4>Tu carrito</h4>
+        <table class="table table-sprited">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Precio</th>
+                </tr>
+            </thead>
+            <tbody id="tabBody">
+                <!--Tabla carrito-->
+            </tbody>
+        </table>
+        <button id="finalizar" class="btn btn-dark">Finalizar Compra</button>
+    </div>
+   </div>
+    <!-- JavaScript Bundle with Popper -->
+    
+    <script src="productos.js"></script>
+    <script src="codigo.js"></script>
+</body>
+
+</html>
+
+
+
+
